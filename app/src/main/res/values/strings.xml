@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Version1</string>
+    <string name="description">Расчет расхода автомобиля по введенным данным</string>
+    <string name="enterCityContribution">Расход на 100 км в городе (литров)</string>
+    <string name="enterHighwayContribution">Расход на 100 км по трассе (литров)</string>
+    <string name="cityDistance">Примерное пройденное расстояние в городе (километры)</string>
+    <string name="highwayDistance">Примерное пройденное расстояние по трассе (километры)</string>
+    <string name="count">РАСЧИТАТЬ</string>
+    <string name="autoFill">0</string>
+
+    <color name="black">#555555</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
