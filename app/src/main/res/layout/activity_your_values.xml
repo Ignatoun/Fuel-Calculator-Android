@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="@color/black"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:textSize="8pt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/enterCityContribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterCityContribution"
+            android:textColor="@color/white"
+            android:labelFor="@id/inputCityContr"/>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputCityContr"
+            android:inputType="numberDecimal"
+            android:text="@string/autoFill"
+            android:textColor="@color/white"
+            android:importantForAutofill="no">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/enterHighwayContribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterHighwayContribution"
+            android:textColor="@color/white"
+            android:labelFor="@id/inputHighwayContr"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputHighwayContr"
+            android:inputType="numberDecimal"
+            android:text="@string/autoFill"
+            android:textColor="@color/white"
+            android:importantForAutofill="no">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/cityDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cityDistance"
+            android:textColor="@color/white"
+            android:labelFor="@id/inputCityDist"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputCityDist"
+            android:inputType="numberDecimal"
+            android:text="@string/autoFill"
+            android:textColor="@color/white"
+            android:importantForAutofill="no">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/highwayDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/highwayDistance"
+            android:textColor="@color/white"
+            android:labelFor="@id/inputHighwayDist"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputHighwayDist"
+            android:inputType="numberDecimal"
+            android:text="@string/autoFill"
+            android:textColor="@color/white"
+            android:importantForAutofill="no">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/countButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:textColor="@color/white"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>
